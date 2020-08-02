@@ -3,14 +3,14 @@ html
 
   body
     h1= title
-    div(class="season")= `Season ${season.number}`
+    div(class="season")= `Season ${seasons.number}`
 
     table
       tr
         th No.
         th Title
         th Director
-      for episode in season.episodes
+      for episode in seasons.episodes
         tr
           td(class="number")= episode.number
           td(class="title")= episode.title
