@@ -8,7 +8,8 @@
     "eslint": "./node_modules/.bin/eslint --format codeframe .",
     "lint": "npm run eslint && npm run puglint",
     "lint:fix": "./node_modules/.bin/eslint --fix --format codeframe .",
-    "puglint": "./node_modules/.bin/pug-lint ."
+    "puglint": "./node_modules/.bin/pug-lint .",
+    "test": "nodemon index.js"
   },
   "repository": {
     "type": "git",
